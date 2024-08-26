@@ -1,0 +1,6 @@
+nerfacc==0.5.3+pt112cu113
+kaolin==0.14.0
+torch==1.12.0+cu113
+pyrender==0.1.45
+trimesh==3.23.5
+open3d==0.17.0

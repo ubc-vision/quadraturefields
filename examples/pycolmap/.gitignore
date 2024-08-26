@@ -1,0 +1,8 @@
+results/
+logs/
+outputs/
+*.pyc
+*.sw*
+__pycache__
+.ipynb_checkpoints
+ckpts/
