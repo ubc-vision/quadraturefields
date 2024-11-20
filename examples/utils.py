@@ -19,7 +19,8 @@ from torch.utils.data._utils.collate import default_collate_fn_map
 from nerfacc.estimators.occ_grid import OccGridEstimator
 from nerfacc.estimators.prop_net import PropNetEstimator
 from nerfacc.grid import ray_aabb_intersect, traverse_grids
-from nerfacc.volrend import accumulate_along_rays_, render_weight_from_density, rendering, rendering_field
+from nerfacc.volrend import accumulate_along_rays_, render_weight_from_density, rendering
+from field_rendering import rendering_field
 import kaolin.render.spc as spc_render
 from radiance_fields.ngp import inverse_contraction
 
